@@ -17,6 +17,7 @@ class TareasController < ApplicationController
         )
     if @tarea.save
       #insert into tareas(titulo,descripcion) values (formulario)    
+      redirect_to controller: 'tareas', action: 'show', id: @tarea.id
     else
       render :new
     end
