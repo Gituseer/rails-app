@@ -21,3 +21,6 @@
 /yarn-error.log
 
 .byebug_history
+
+#configuracion de produccion
+/config/enviroments/production.rb
