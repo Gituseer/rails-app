@@ -70,7 +70,7 @@ Rails.application.configure do
     domain: 'http://herokuapp.com',
     user_name: 'apikey',
     pasword:'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',
-    authentication: 'plain'
+    authentication: 'plain',
     enable_starttls_auto: true
 
   } 
